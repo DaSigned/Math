@@ -1,0 +1,21 @@
+{
+    "name": "dasigned/math",
+    "type": "library",
+    "description": "XML Modelling - The DaSigned PHP framework",
+    "keywords": ["mathematic, functions, equations"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Schneider",
+            "email": "michael.schneider@dasined.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DaSigned\\Math\\": "src/DaSigned/Math/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8"
+    }
+}
